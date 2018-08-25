@@ -1,10 +1,119 @@
+@font-face {
+	font-family: "MuseoSansCurl";
+	src: url(fonts/MuseoSans/MuseoSansCyrl-500.ttf);
+}
+
 .coal-block {
 	border: 2px solid #000;
-	width: 100%;  height: 700px;
+	width: 100%;
+	height: 800px;
 	background: #000000 url(../bg/bg-coal.jpg) no-repeat;
 	background-size: 100%;
 }
-.header{
+
+.header {
+	display: flex;
+	overflow: hidden;
 	color: #e1e1e1;
-	font-family: "Museo Sans Curl";
+	font-family: "MuseoSansCurl";
+	justify-content: space-between;
+}
+.logo {
+	border: 0;
+	display: block;
+	margin: 50px;
+	font-size: 28px;
+
+}
+
+.menu {
+	white-space: nowrap;
+	border: 0;
+	display: block;
+	margin: 50px;
+	
+}
+.menu div {
+	display: inline-block;
+	border: 0;
+	margin-left: 46px;
+	font-size: 24px;
+}
+.middle {
+	display: block;
+	margin: 7% 20%;
+	font-family: "MuseoSansCurl";
+	color: #e1e1e1;
+	text-align: center;
+	letter-spacing: 5px;
+}
+.middle h1 {
+	font-size: 80px;
+	
+}
+.middle h2 {
+	font-size: 42px;
+	margin: 54px;
+}
+.middle h3 {
+	font-size: 28px;
+}
+.colortext {
+	color: #cc4637;
+}
+.history {
+	display: flex;
+	background: #cc4637;
+	width: 100%; height: 800px;
+}
+.history img {
+	border: 1px;
+	margin: 105px 41px 141px 249px;
+}
+.history h2 {
+	border: 1px;
+	margin: 70px 42px 38px 41px;
+	font-family: "MuseoSansCurl";
+	font-size: 42px;
+}
+.history p{
+	border: 1px;
+	margin-right: 40%;
+	margin-left: 10%;
+	font-family: "MuseoSansCurl";
+	font-size: 22px;
+}
+.works {
+	display: flex;
+	font-family: "MuseoSansCurl";
+	color: #1f1f1f;
+	text-align: center;
+	letter-spacing: 5px;
+	background: #e1e1e1;
+	width: 100%;
+	height: 1000px;
+	text-align: center;
+	
+}
+.works h2 {
+	font-size: 42px;
+	margin: 54px;
+	text-align: center;
+}
+.workplace{
+	margin: 
+}
+.infographic{
+	display: flex;
+	background: #1f1f1f url(../bg/bg-b-g.png);
+	width: 100%;
+	height: 800px;
+}
+.tabs{
+	display: block;
+	justify-content: space-between;
+	
+}
+.bites {
+	float: left; 
 }
