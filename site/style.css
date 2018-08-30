@@ -151,3 +151,45 @@
 	    background: transparent!important;
     
 }
+.carton-box{
+	
+	width: 100%; height: 800px;
+	justify-content: space-between;
+	background: #cc4637;
+}
+.tap {
+	
+	text-align: center;
+}
+.textarea {
+	
+	display: inline-block;
+	background: #f1f1f1;
+}
+.textarea textarea {
+	width: 594px !important; height: 216px !important;
+}
+.blocks {
+	display: inline-block;
+	background: transparent!important;;
+	
+	
+}
+.inf-bl {
+	color: #e1e1e1;
+	margin-top: 20px;
+	background-color: transparent!important;
+	border: none;
+	border-bottom: 2px solid #e1e1e1;
+}
+.place {
+	
+	
+	background-color: transparent!important;
+	
+}
+.but {
+	border: none;
+	float: right;
+	
+}
