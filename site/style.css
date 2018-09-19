@@ -39,6 +39,10 @@
 	margin-left: 46px;
 	font-size: 24px;
 }
+.nav:hover{
+	color: #cc4637;
+	cursor: pointer;
+}
 .middle {
 	display: block;
 	margin: 7% 20%;
@@ -65,21 +69,22 @@
 	display: flex;
 	background: #cc4637;
 	width: 100%; height: 800px;
+	text-align: center;
 }
 .history img {
-	border: 1px;
-	margin: 105px 41px 141px 249px;
-}
-.history h2 {
-	border: 1px;
-	margin: 70px 42px 38px 41px;
-	font-family: "MuseoSansCurl";
-	font-size: 42px;
+	margin-top: 70px
 }
 .history p{
-	border: 1px;
-	margin-right: 40%;
-	margin-left: 10%;
+	color: #e1e1e1;
+	padding: 40px 500px;
+	font-family: "MuseoSansCurl";
+	font-size: 22px;
+}
+.history button {
+	width: 326px; height: 78px;
+	border: none;
+	color: #e1e1e1;
+	background: #363636;
 	font-family: "MuseoSansCurl";
 	font-size: 22px;
 }
